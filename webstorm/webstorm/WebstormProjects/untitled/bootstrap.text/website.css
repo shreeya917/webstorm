@@ -1,0 +1,96 @@
+div.first {
+    width: 100%;
+    background-color: white;
+
+}
+#second {
+    width: 100%;
+
+}
+#third {
+    width: 100%;
+
+}
+div.top{
+    position: absolute;
+    left:1025px;
+}
+#all{
+    border-radius: 12px;
+    margin: 40px;
+}
+ul li{
+    background-image: image(list1.jpg);
+}
+div.navbar{
+    background-color: darkblue;
+    height: 30px;
+    width: 85%;
+    float: right;
+    color:whitesmoke;
+    margin-top: 60px;
+
+}
+div.image1{
+    width:15%;
+    float: right;
+    position:absolute;
+}
+span{
+    color: #0f137e;
+    margin-left: 60px;
+}
+
+div.list{
+    position: absolute;
+    width:15%;
+    top:200px;
+}
+div.list2{
+    position: absolute;
+    width:10%;
+    top:450px;
+}
+div.text{
+    position: absolute;
+    width:15%;
+    top:600px;
+}
+
+a{
+    padding: 12px 40px;
+    color: white;
+}
+div.baner{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+div.center{
+    float:right;
+    width: 80%;
+
+}
+
+div.footer1{
+    position: absolute;
+    top:800px;
+}
+div.footer2{
+    position: absolute;
+    top:800px;
+    left:500px;
+}
+div.footer3{
+    position: absolute;
+    top:800px;
+    left:1000px;
+}
+
+input{
+    padding: 12px;
+    width:200px;
+    text-decoration-color: white;
+
+
+}

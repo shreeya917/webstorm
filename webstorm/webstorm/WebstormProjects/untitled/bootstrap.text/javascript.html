@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Java Script</title>
+</head>
+<body>
+<script type="text/javascript">
+     document.write("Hello World!");
+     function showVal() {
+         var x = document.getElementById("test").value;
+         if(x.length <5){
+             alert("TEst length should be more than 5");
+         }
+     }
+</script>
+<form>
+    <input type="text" id="test" onkeyup="showVal()"/>
+    <button type="button" onclick="showVal()">Submit</button>
+</form>
+</body>
+</html>
